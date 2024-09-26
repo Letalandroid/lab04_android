@@ -14,7 +14,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class Listar extends AppCompatActivity implements View.OnClickListener {
 
     Button btnRegresar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
