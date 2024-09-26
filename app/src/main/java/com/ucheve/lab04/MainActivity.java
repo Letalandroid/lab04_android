@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        String mensaje = lstOpciones.getItemAtPosition(position).toString();
-        Toast.makeText(getApplicationContext(), mensaje, Toast.LENGTH_LONG).show();
+        //String mensaje = lstOpciones.getItemAtPosition(position).toString();
+        //Toast.makeText(getApplicationContext(), mensaje, Toast.LENGTH_LONG).show();
     }
 }
